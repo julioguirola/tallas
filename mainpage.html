@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALLAS</title>
+    <script src="js/libs.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="font-family: sans-serif; background-color: #e8e8e8;">
+
+    <script>
+        $(document).ready(publicate_content());
+    </script>
+    
+    <div class="top_bar"><h1 style="color: #e8e8e8; padding-left: 30px;">TALLAS</h1></div>
+    <div class="on" id="user_name">
+    </div>
+    <div class="pub">
+            <h3>Publica una <span style="color: rgb(56, 56, 247);">TALLA!</span></h3>
+            <textarea class="tx" id="talla" maxlength="174" placeholder="Publica algo con talla!" style="resize: none; width: 330px; font-family: sans-serif;" rows="3"></textarea>
+            <input type="button" value="Publicar" onclick="cont_pub()">
+    </div>
+    <div class="in" id="all_tallas">
+        
+    </div>
+    <div class="at" id="users_tallosos">
+        <h3>Usuarios Tallosos</h3>
+        
+    </div>
+</body>
+</html>
+
+<!--👍👎-->

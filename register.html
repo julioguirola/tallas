@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="js/libs.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="font-family: sans-serif; background-color: #e8e8e8;">
+    <h1>Crear cuenta</h1>
+    <div class="on">
+        <label for="uname">User Name:</label>
+        <input class="tx" type="text" maxlength="25" id="uname"><br><br>
+        <label for="email">Email:</label>
+        <input class="tx" type="text" id="email"><br><br>
+        <label for="id_1723">Password:</label>
+        <input class="tx" type="password" id="id_1723"><br><br>
+        <textarea class="tx" id="sum" maxlength="174" minlength="20" placeholder="Pon algo con talla acerca de ti, mínimo 20 letras, otros usuarios podrán ver esta información" style="resize: none; width: 300px; font-family: sans-serif; margin-bottom: 20px;" rows="5"></textarea>
+        <input type="button" value="Crear" onclick="validateRegister()">
+        <input type="button" value="Cancel" onclick="location.href = 'index.html'">
+    </div>
+</body>
+</html>
