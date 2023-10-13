@@ -1,0 +1,112 @@
+.in {    
+    border-style: solid;
+    border-right-color: rgb(56, 56, 247);
+    border-top-color: rgb(56, 56, 247);
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: rgb(145, 111, 184);
+    border-width: 3px;
+    width: 336px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+    border-radius: 3px;
+    top: 300px;
+}
+
+.on {
+    top: 100px;
+    border-style: solid;
+    border-right-color: rgb(56, 56, 247);
+    border-top-color: rgb(56, 56, 247);
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: rgb(145, 111, 184);
+    border-width: 3px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    padding-top: 0px;
+    position: absolute;
+    left: 10px;
+    border-radius: 3px;
+}
+
+
+.onlogin .tx {
+    float: right;    
+}
+
+.in .tx {
+    float: right;    
+}
+
+.top_bar {  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(56, 56, 247), #e8e8e8);
+    z-index: 1;
+}
+
+
+.at {
+    border-style: solid;
+    border-right-color: rgb(56, 56, 247);
+    border-top-color: rgb(56, 56, 247);
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: rgb(145, 111, 184);
+    border-width: 3px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    left: 10px;
+    border-radius: 3px;
+    top: 300px;
+}
+
+.pub {
+    z-index: 1;
+    background-color: #e8e8e8;
+    border-style: solid;
+    border-right-color: rgb(56, 56, 247);
+    border-top-color: rgb(56, 56, 247);
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: rgb(145, 111, 184);
+    border-width: 3px;
+    width: 336px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+    border-radius: 3px;
+    top: 100px;
+}
+
+.talla {
+    border-style: solid;
+    border-radius: 3px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: transparent;
+    padding-bottom: 10px;
+}
+
+
+.onlogin {
+    top: 100px;
+    border-style: solid;
+    border-right-color: rgb(56, 56, 247);
+    border-top-color: rgb(56, 56, 247);
+    border-bottom-color: rgb(145, 111, 184);
+    border-left-color: rgb(145, 111, 184);
+    border-width: 3px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    left: 10px;
+    border-radius: 3px;
+}
